@@ -7,7 +7,6 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -27,7 +26,9 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
 Map main_map={};
+
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
 
@@ -38,11 +39,6 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-
-
-
-
-
 
   @override
   Widget build(BuildContext context) {
@@ -258,7 +254,8 @@ backImage(){
   );
 }
 
-  String swapCase(String s) {
+
+String swapCase(String s) {
   if (0 < s.length && s.length <= 1000) {
     String newString = "";
     for (int i = 0; i < s.length; i++) {
@@ -274,7 +271,8 @@ backImage(){
   }
 }
 
-  String swapCaseFirstValue(String s) {
+
+String swapCaseFirstValue(String s) {
   if (0 < s.length && s.length <= 1000) {
     String newString = "";
     for (int i = 0; i < s.length; i++) {
@@ -282,7 +280,7 @@ backImage(){
         newString += s[0].toUpperCase();
       } 
       else {
-        newString += s[i];
+        newString += s[i].toLowerCase();
       }
     }
     return newString;
