@@ -13,7 +13,7 @@ Installation
 To run the app locally, follow these steps:
 
 Make sure you have Flutter installed on your system.
-Clone this repository to your local machine using git clone https://github.com/your-username/sWAP-cASE.git.
+Clone this repository to your local machine using git clone https://github.com/phumlanimabophe/Flutter_Swap_Case.git.
 Navigate to the project directory using the command line.
 Run flutter pub get to install the required dependencies.
 Connect an emulator or a physical device.
